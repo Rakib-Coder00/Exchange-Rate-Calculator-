@@ -34,3 +34,8 @@ swap.addEventListener('click',()=>{
 })
 
 calculate();
+
+
+// Footer Year
+let footerDate = document.getElementById('year')
+footerDate.innerText = new Date().getFullYear()
